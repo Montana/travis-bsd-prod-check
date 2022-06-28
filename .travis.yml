@@ -16,4 +16,3 @@ jobs:
         - dmesg | grep CPU
         - dmesg | grep memory
         - grep -w 'memory' /var/run/dmesg.boot
-     

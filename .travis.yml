@@ -18,3 +18,4 @@ jobs:
         - grep -w 'memory' /var/run/dmesg.boot
         - grep ^CPU /var/run/dmesg.boot
         - swapinfo -k
+        - pkg install dmidecode
